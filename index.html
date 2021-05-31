@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css"
+      rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+      <div id="titulo">
+         <h1>JUEGO DE MEMORIA</h1>
+        </div>
+        <div id="dato"></div>
+        <div id="juego"></div>
+      </div> 
+        <div id="tablero">
+        <table>
+        <tr>
+          <td id="0" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="1" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="2" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="3" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+        </tr>
+        <tr>
+          <td id="4" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="5" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="6" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="7" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+        </tr>
+        <tr>
+          <td id="8" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="9" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="10" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="11" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+        </tr>
+        <tr>
+          <td id="12" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="13" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="14" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+          <td id="15" onclick="girarCarta()"><img src="./img/card-blue.png" class="card"></td>
+        </tr>
+        </table>
+      </div>
+    </main>
+  
+    <footer id="botones">
+      <input type="button" value="Iniciar" onclick="iniciarJuego()" class="boton"/>  
+      <input type="button" value="Resetear" onclick="resetearJuego()" class="boton" /> 
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
